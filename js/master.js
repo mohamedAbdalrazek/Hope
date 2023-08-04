@@ -77,7 +77,7 @@ function backgroundShuffle(checkInterver){
       landingImage.style.backgroundImage="url('../imgs/"+imagesSource[randNumber]+".jpg')";
     },10000)
   }
-  else{
+  else{ 
     clearInterval(intervel)
   }
 }
