@@ -75,7 +75,7 @@ function backgroundShuffle(checkInterver){
     intervel = setInterval(function(){
       let randNumber = Math.floor(Math.random()*imagesSource.length);
       landingImage.style.backgroundImage="url('../imgs/"+imagesSource[randNumber]+".jpg')";
-    },1000)
+    },10000)
   }
   else{
     clearInterval(intervel)
